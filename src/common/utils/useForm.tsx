@@ -28,7 +28,7 @@ export const useForm = (validate: { (values: IValues): IValues }) => {
     const errors = validate(values);
     setFormState((prevState) => ({ ...prevState, errors }));
 
-    const url = ""; // Fill in your API URL here
+    const url = "https://script.google.com/macros/s/AKfycbzk8hmxLpWwLEP-ycw1rZ6tpndX2jyQLGPcKuCYIy08Gb5Lqulge2VWiSS13Z76LXTC/exec";
 
     try {
       if (Object.values(errors).every((error) => error === "")) {
@@ -39,6 +39,7 @@ export const useForm = (validate: { (values: IValues): IValues }) => {
           },
           body: JSON.stringify(values),
         });
+
 
         if (!response.ok) {
           notification["error"]({
@@ -60,6 +61,7 @@ export const useForm = (validate: { (values: IValues): IValues }) => {
         }
       }
     } catch (error) {
+      console.error(error);
       notification["error"]({
         message: "Error",
         description: "Failed to submit form. Please try again later.",

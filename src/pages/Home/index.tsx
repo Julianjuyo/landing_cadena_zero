@@ -5,12 +5,14 @@ import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
+import TeamContent from "../../content/TeamContent.json";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
+const TeamSection = lazy(() => import("../../components/TeamSection"));
 
 const Home = () => {
   return (
@@ -21,10 +23,10 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon="developer.svg"
+        icon="symplify_emitions.png"
         id="intro"
       />
-      <MiddleBlock
+      {/* <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
@@ -50,6 +52,12 @@ const Home = () => {
         content={ProductContent.text}
         icon="waving.svg"
         id="product"
+      /> */}
+      <TeamSection
+        title={TeamContent.title}
+        text={TeamContent.text}
+        members={TeamContent.members}
+        id="team"
       />
       <Contact
         title={ContactContent.title}

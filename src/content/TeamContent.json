@@ -1,0 +1,34 @@
+{
+  "title": "TEAM",
+  "text": "Meet our dedicated team of experts working to accelerate corporate sustainability.",
+  "members": [
+    {
+      "name": "Ana Palomares",
+      "position": "CEO",
+      "photo": "ana.jpeg",
+      "description": "+ 5 years of experience in Carbon Accounting and Corporate Sustainability",
+      "linkedin": "https://www.linkedin.com/in/anampalomares/"
+    },
+    {
+      "name": "Carlos Oliveros",
+      "position": "CPO",
+      "photo": "carlos.jpeg",
+      "description": "+ 3 years of experience in Product and Operation Management",
+      "linkedin": "https://www.linkedin.com/in/carlosaoliveros/"
+    },
+    {
+      "name": "Julian Oliveros",
+      "position": "CTO",
+      "photo": "julian.jpeg",
+      "description": "+ 3 years of experience in Software and AI star-ups.",
+      "linkedin": "https://www.linkedin.com/in/11-julian-oliveros/"
+    },
+    {
+      "name": "Tomas Monroy",
+      "position": "CFO",
+      "photo": "tomas.jpeg",
+      "description": "+ 10 years of experience in Corporate Finance.",
+      "linkedin": "https://www.linkedin.com/in/tomasmonroymellard/"
+    }
+  ]
+} 

@@ -1,4 +1,4 @@
 {
-    "title": "Contact form",
-    "text": "The following form demonstrates form validation in action. Contact form component reduces the amount of time it is being re-rendered by the user as it embraces uncontrolled form validation to reduce any unnecessary performance penalty."
+    "title": "🌎 Contact Us", 
+    "text": "Have questions about emissions tracking, supplier engagement, or joining our pilot? Whether you’re a company or a supplier, we’d love to hear from you. Use this form to reach the CadenaZero team. Our AI assistant will make sure your message gets to the right person. We use simple, fast validation to keep the form smooth and reliable."
 }
